@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 #Server
 import socket
 import cv2
@@ -36,6 +34,3 @@ while True:
                 client_socket.close()
 
 cv2.destroyAllWindows()
-
-
-
